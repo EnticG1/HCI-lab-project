@@ -1,0 +1,101 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+
+p{
+    line-height: 180%;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Reload-Medium;
+    src: url(reload-medium.otf);
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+
+
+/* Header */
+    header{
+        background-color: white;
+        overflow: hidden;
+    }
+
+/* navbar */
+    #top-header{
+        text-align: center;
+        height: 60px;
+    }
+
+/* Logo */
+    #logo{
+        float: left;
+        padding: 0em 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: none;
+        height: 60px;
+        width: fit-content;
+    }
+    #logo h1{
+        font-family: Reload-Medium;
+        text-shadow:2px 2px gray;
+        vertical-align: middle;
+    }
+
+    #logo h1 #logo-color2{
+        color: red;
+    }
+
+/* Navigation menu */
+    #nav-menu{
+        float: right;
+        width: fit-content;
+        height: 100%;
+        margin: none;
+    }
+
+    #nav-menu ul{
+        display: inline-block;
+        padding: none;
+        margin: none;
+        display: flex;
+    }
+
+    #nav-menu li a, #nav-menu li span{
+        display: inline-block;
+        padding: 0em 1.5em;
+        text-decoration: none;
+        font-family: Reload-Medium;
+        line-height: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #nav-menu li a{
+        color: black;
+    }
