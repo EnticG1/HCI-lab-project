@@ -46,16 +46,13 @@ ol, ul{
 /* navbar */
     #top-header{
         text-align: center;
-        height: 60px;
+        height: 100%;
     }
 
 /* Logo */
     #logo{
         float: left;
         padding: 0em 1.5em;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        margin: none;
         height: 60px;
         width: fit-content;
     }
@@ -63,6 +60,8 @@ ol, ul{
         font-family: Reload-Medium;
         text-shadow:2px 2px gray;
         vertical-align: middle;
+        text-align: center;
+        line-height: 60px;
     }
 
     #logo h1 #logo-color2{
@@ -73,14 +72,14 @@ ol, ul{
     #nav-menu{
         float: right;
         width: fit-content;
-        height: 100%;
+        height: fit-content;
         margin: none;
     }
 
     #nav-menu ul{
         display: inline-block;
-        padding: none;
-        margin: none;
+        padding: 0;
+        margin: 0;
         display: flex;
     }
 
@@ -99,3 +98,16 @@ ol, ul{
     #nav-menu li a{
         color: black;
     }
+
+
+/* Main */
+    /* Section 1 (Welcome) */
+        #welcome{
+            width: 100%;
+
+        }
+        
+        #welcome img{
+            width: 100%;
+            display: block;
+        }
