@@ -130,12 +130,12 @@ ol, ul{
             position: absolute;
             top: 20vw;
             left: 50%;
-            margin-left: -7.5vw;
+            margin-left: -12.5vw;
             transform: translate(-50% -50%);
         }
 
         #welcome-txt h1{
-            font-size: 3vw;
+            font-size: 5vw;
             color: white;
             text-shadow: 1px 1px black;
         }
