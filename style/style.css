@@ -179,7 +179,6 @@ ol, ul{
         }
     
         .overview-text-box{
-            float: left;
             display: inline-block;
             width: min-content;
             vertical-align: auto;
