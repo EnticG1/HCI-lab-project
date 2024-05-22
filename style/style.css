@@ -32,11 +32,6 @@ ol, ul{
     src: url(reload-medium.otf);
 }
 
-.container{
-    margin: 0px auto;
-    width: 1200px;
-}
-
 .darken-img{
     filter: brightness(.7);
 }
@@ -61,9 +56,10 @@ ol, ul{
         height: 60px;
         width: fit-content;
         z-index: 1;
+        color: white;
     }
     #logo h1{
-        text-shadow:1px 1px white;
+        text-shadow:1px 1px black;
         vertical-align: middle;
         text-align: center;
         line-height: 60px;
@@ -102,7 +98,7 @@ ol, ul{
     }
 
     #nav-menu li a{
-        color: #F97300;
+        color: white;
         text-shadow: 2px 2px black;
     }
 
@@ -111,24 +107,25 @@ ol, ul{
     /* Section 1 (Welcome) */
         #welcome{
             width: 100%;
-            position: absolute;
+            position: relative;
             top: -68px;
             text-align: center;
         }
         
         #welcome-img{
-            height: 1200px;
+            height: 100%;
             overflow: hidden;
         }
 
         #welcome-img img{
             width: 100%;
-            
+            display: block;
+            filter: brightness(50%);
         }
 
         #welcome-txt{
             position: absolute;
-            top: 20vw;
+            top: 25vw;
             left: 50%;
             margin-left: -7.5vw;
             transform: translate(-50% -50%);
@@ -143,4 +140,49 @@ ol, ul{
         #welcome-txt h1 span{
             color: red;
             text-shadow: 1px 1px black;
+        }
+    
+    /* Section 2: Overview */
+        #overview{
+            margin: 0px auto;
+            width: 60%; 
+            height: 20vh
+        }
+        .declaration-text{
+            font-size: 2vw;
+            white-space: nowrap;
+            line-height: 5vw;
+        }
+        
+        .subtext{
+                font-size: 1.3vw;
+        }
+        
+        .overview-desc{
+            height: fit-content;
+            display: block;
+            flex-direction: row;
+            align-items: center;
+            margin: 0;
+        }
+    
+        .overview-text-box{
+            float: left;
+            display: inline-block;
+            width: min-content;
+            vertical-align: auto;
+
+        }
+
+        .overview-img-box{
+            width: fit-content;
+            height: fit-content;
+            margin: none;
+            float: right;
+        }
+
+        .overview-img-box img{
+            border-radius: 5px;
+            width: 25vw;
+            height: 20%;
         }
