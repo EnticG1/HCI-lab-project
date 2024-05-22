@@ -104,6 +104,9 @@ ol, ul{
 
 
 /* Main */
+#main-body{
+    height: 100%;
+}
     /* Section 1 (Welcome) */
         #welcome{
             width: 100%;
@@ -125,7 +128,7 @@ ol, ul{
 
         #welcome-txt{
             position: absolute;
-            top: 25vw;
+            top: 20vw;
             left: 50%;
             margin-left: -7.5vw;
             transform: translate(-50% -50%);
@@ -144,12 +147,21 @@ ol, ul{
     
     /* Section 2: Overview */
         #overview{
+            height: 100%;
             margin: 0px auto;
-            width: 60%; 
-            height: 20vh
+            width: 80%; 
         }
+        .overview-item{
+            height: auto;
+            background-color: #F97300;
+            padding: 2em 2em;
+            border-radius: 5px;
+            overflow: auto;
+            margin: 1.2em;
+        }
+
         .declaration-text{
-            font-size: 2vw;
+            font-size: 3vw;
             white-space: nowrap;
             line-height: 5vw;
         }
@@ -171,7 +183,7 @@ ol, ul{
             display: inline-block;
             width: min-content;
             vertical-align: auto;
-
+            height: fit-content;
         }
 
         .overview-img-box{
@@ -179,6 +191,7 @@ ol, ul{
             height: fit-content;
             margin: none;
             float: right;
+            display: block;
         }
 
         .overview-img-box img{
