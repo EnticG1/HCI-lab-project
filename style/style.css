@@ -146,8 +146,8 @@ ol, ul{
         }
     
     /* Section 2: Overview */
-        #overview{
-            height: 100%;
+        .overview{
+            height: min-content;
             margin: 0px auto;
             width: 80%; 
         }
@@ -197,4 +197,11 @@ ol, ul{
             border-radius: 5px;
             width: 25vw;
             height: 20%;
+        }
+
+        .overview-dl{
+            background-color: #F97300;
+            width: 100%;
+            text-align: center;
+            margin: 5em 0em;
         }
