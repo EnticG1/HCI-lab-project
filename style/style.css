@@ -165,7 +165,7 @@ ol, ul{
         }
 
         .information-item h3{
-            font-size: 2vw;
+            font-size: 1.5vw;
         }
 
         .overview-info .information-item span{
@@ -238,3 +238,14 @@ ol, ul{
             text-align: center;
             margin: 5em 0em;
         }
+
+        .download-bar{
+            padding: 1em;
+        }
+        
+    /* Footer */
+    .bottom-footer{
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
