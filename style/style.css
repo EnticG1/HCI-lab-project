@@ -1,5 +1,5 @@
 html, body{
-    height: 100000px; /*Nanti balikin jadi 100%. ini buat ngetes scrolling doang*/
+    height: min-content; /*Nanti balikin jadi 100%. ini buat ngetes scrolling doang*/
     background-color: #E2DFD0;
     font-family: Reload-Medium;
 }
@@ -27,8 +27,17 @@ ol, ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 #orange-bg{
     background-color:#F97300;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #E2DFD0;
 }
 
 @font-face {
@@ -257,5 +266,57 @@ ol, ul{
 /* Gallery */
 
 #gallery-body{
+    width: 100%;
+    background-color: #E2DFD0;
+    text-align: center;
+}
+
+#gallery-body .declaration-text{
+    padding: 1em;
+}
+
+#gallery-body li{
+    list-style: none;
+}
+
+#gallery-nav{
+    width: 100%;
+    align-items: center;
+}
+
+#gallery-item-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.gallery-nav-button{
+    padding: 1.5em;
+    margin: 1em;
+    color: red;
+    width: 10em;
+    height: 4em;
+    text-shadow: 1px 1px 5px white;
+    border-radius: 5px;
+}
+
+#class-s{
+    /* background-image: ; */
+}
+
+#class-a{
+
+}
+
+#class-b{
+
+}
+
+#class-c{
     
+}
+
+#class-d{
+    background-image: url("../Image/Mitsubishi-Lancer-Evolution.webp");
+    background-size: cover;
 }
