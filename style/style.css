@@ -272,7 +272,9 @@ a{
 }
 
 #gallery-body .declaration-text{
-    padding: 1em;
+    padding-top: 1em;
+    color: #F97300;
+    text-shadow: 1px 1px 3px black;
 }
 
 #gallery-body li{
@@ -289,13 +291,14 @@ a{
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
+    width: min-content;
 }
 .gallery-nav-button{
     /* padding: 1.5em; */
     margin: 1em;
     color: #E2DFD0;
-    width: 13em;
-    height: 7em;
+    width: 15vw;
+    height: 7vw;
     text-shadow: 1px 1px 5px black;
     border-radius: 5px;
     vertical-align: center;
@@ -303,8 +306,56 @@ a{
 
 .gallery-nav-button h1{
     vertical-align: center;
-    line-height: 3.5em;
+    line-height: 7vw;
+    font-size: 2.5vw;
+}
 
+#class-s-section{
+    width: 100%;
+    height: min-content;
+}
+
+.class-wrapper{
+    max-width: fit-content;
+    display: flex;
+    float: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+#class-s-section li{
+    display: flex;
+    flex-direction: column;
+}
+
+.class-s-item img{
+    width: 80%;
+}
+
+.class-s-item div{
+    padding: 0.5em;
+}
+
+.class-s-item h3{
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+.class-s-item{
+    background-color: #F97300;
+    width: max-content;
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 3px;
+    color:#E2DFD0;
+    font-size: 1.5em;
+    height: 100%;
+    padding-bottom: 0.75em;
+
+}
+
+.class-s-item span{
+    color: red;
 }
 
 #class-s{
