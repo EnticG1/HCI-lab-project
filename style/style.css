@@ -291,29 +291,40 @@ a{
     max-width: fit-content;
 }
 .gallery-nav-button{
-    padding: 1.5em;
+    /* padding: 1.5em; */
     margin: 1em;
-    color: red;
-    width: 10em;
-    height: 4em;
-    text-shadow: 1px 1px 5px white;
+    color: #E2DFD0;
+    width: 13em;
+    height: 7em;
+    text-shadow: 1px 1px 5px black;
     border-radius: 5px;
+    vertical-align: center;
+}
+
+.gallery-nav-button h1{
+    vertical-align: center;
+    line-height: 3.5em;
+
 }
 
 #class-s{
-    /* background-image: ; */
+    background-image: url("../Image/Lamborghini-Centenario.webp");
+    background-size: cover;
 }
 
 #class-a{
-
+    background-image: url("../Image/Nissan-GT-R-Nismo.webp");
+    background-size: cover;
 }
 
 #class-b{
-
+    background-image: url("../Image/Porsche-911-GTS-Coupe.webp");
+    background-size: cover;
 }
 
 #class-c{
-    
+    background-image: url("../Image/Dodge-Challenger-SRT8.webp");
+    background-size: cover;
 }
 
 #class-d{
