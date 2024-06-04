@@ -1,5 +1,4 @@
-html, body{
-    height: min-content; /*Nanti balikin jadi 100%. ini buat ngetes scrolling doang*/
+html, body{/*Nanti balikin jadi 100%. ini buat ngetes scrolling doang*/
     background-color: #E2DFD0;
     font-family: Reload-Medium;
 }
@@ -59,6 +58,7 @@ a{
     #top-header{
         text-align: center;
         height: 100%;
+        padding-top: 0.5em;
     }
 
 /* Logo */
@@ -96,6 +96,7 @@ a{
     #nav-menu ul{
         display: inline-block;
         padding: 0;
+        padding-right: 1em;
         margin: 0;
         display: flex;
     }
@@ -107,7 +108,7 @@ a{
         line-height: 60px;
         padding-bottom: 8px;
         font-weight: 800;
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     #nav-menu li a{
@@ -124,7 +125,7 @@ a{
         #welcome{
             width: 100%;
             position: relative;
-            top: -68px;
+            top: -84px;
             text-align: center;
             box-shadow: 0 0 30px 3px;
         }
@@ -174,11 +175,11 @@ a{
         }
 
         .information-item h1{
-            font-size: 4vw;
+            font-size: 2vw;
         }
 
         .information-item h3{
-            font-size: 1.5vw;
+            font-size: 1vw;
         }
 
         .overview-info .information-item span{
@@ -191,19 +192,23 @@ a{
             height: min-content;
             margin: 0px auto;
             width: 80%; 
+            display: flex;
+            justify-content: center;
+            flex-flow: wrap;
         }
         .overview-item{
             height: auto;
+            width: min-content;
             background-color: #F97300;
-            padding: 3vw 3vw;
+            padding: 2vw 2vw;
             border-radius: 2px;
             overflow: auto;
-            margin: 2.4vw;
+            margin: 2vw;
             box-shadow: 0 0 10px 1px;
         }
 
         .declaration-text{
-            font-size: 3vw;
+            font-size: 2vw;
             white-space: nowrap;
             line-height: 5vw;
         }
@@ -214,13 +219,12 @@ a{
         }
         
         .subtext{
-                font-size: 1.5vw;
+                font-size: 1vw;
         }
         
         .overview-desc{
             height: fit-content;
             display: block;
-            flex-direction: row;
             margin: 0;
         }
     
@@ -231,17 +235,9 @@ a{
             height: fit-content;
         }
 
-        .overview-img-box{
-            width: fit-content;
-            height: fit-content;
-            margin: none;
-            float: right;
-            display: block;
-        }
-
-        .overview-img-box img{
+        .overview-text-box img{
             border-radius: 5px;
-            width: 25vw;
+            width: 30vw;
             height: 20%;
         }
 
@@ -256,12 +252,6 @@ a{
             padding: 1em;
         }
         
-    /* Footer */
-    .bottom-footer{
-        padding: 20px;
-        text-align: center;
-        background-color: white;
-    }
 
 /* Gallery */
 
@@ -323,13 +313,10 @@ a{
     margin: 0px auto;
 }
 
-#class-s-section li{
-    display: flex;
-    flex-direction: column;
-}
-
 .class-s-item img{
-    width: 80%;
+    width: 20vw;
+    box-shadow: 1px 1px 5px black;
+    
 }
 
 .class-s-item div{
@@ -342,12 +329,11 @@ a{
 }
 
 .class-s-item{
-    background-color: #F97300;
     width: max-content;
     border-radius: 5px;
     margin: 0.5em;
     padding: 3px;
-    color:#E2DFD0;
+    color: #F97300;
     font-size: 1.5em;
     height: 100%;
     padding-bottom: 0.75em;
@@ -359,26 +345,119 @@ a{
 }
 
 #class-s{
-    background-image: url("../Image/Lamborghini-Centenario.webp");
+    background-image: url("../Image/class s/Lamborghini-Centenario (1).webp");
     background-size: cover;
 }
 
 #class-a{
-    background-image: url("../Image/Nissan-GT-R-Nismo.webp");
+    background-image: url("../Image/class a/Nissan-GT-R-Nismo.webp");
     background-size: cover;
 }
 
 #class-b{
-    background-image: url("../Image/Porsche-911-GTS-Coupe.webp");
+    background-image: url("../Image/class b/Porsche-911-GTS-Coupe.webp");
     background-size: cover;
 }
 
 #class-c{
-    background-image: url("../Image/Dodge-Challenger-SRT8.webp");
+    background-image: url("../Image/class c/Dodge-Challenger-SRT8.webp");
     background-size: cover;
 }
 
 #class-d{
-    background-image: url("../Image/Mitsubishi-Lancer-Evolution.webp");
+    background-image: url("../Image/class d/Mitsubishi-Lancer-Evolution.webp");
     background-size: cover;
+}
+
+.footer{
+    padding: 0.4em;
+    display: block;
+    box-shadow: 0px 5px 6px 1px rgba(20,20,20,0.4);
+}
+
+
+.line-logo img{
+    /*From Freepik*/
+    width: 1.5em;
+}
+
+.ig-logo img{
+    /*From edt.im*/
+    width: 1.5em;
+}
+
+.contacts{
+    float: center;
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+    text-align: center;
+    margin: none;
+    height: 100%;
+    padding: 1em 1em;
+}
+
+ul.contacts li{
+    display: inline-block;
+    padding: 0em 0.8em;
+}
+
+
+ul.contacts li a{
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.copyright{
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.floatCenter{
+    display: flex;
+    justify-content: center;
+}
+
+#news-body{
+    width: 85%;
+    background-color: #E2DFD0;
+    text-align: center;
+    height: 100%;
+    margin: 2em 0;
+}
+
+.news ul{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.news{
+    height: 100%;
+}
+
+.newsTitle{
+    width: 100%;
+}
+
+.newsItem{
+    width: min-content;
+    text-align: left;
+    height: 385px;
+    padding: 1em;
+}
+
+.newsItem h3{
+    font-size: 1em;
+    font-weight: 200;
+    padding: 1em 0;
+    overflow: hidden;
+}
+
+.newsItem img{
+    width: 300px;
+    height: 157px;
+    object-fit: cover;
 }
