@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Project</title>
     <link rel="stylesheet" href="style\style.css">
+    <script src="script/script.js"></script>
 </head>
-<body>
+<body id="subs-page">
     <header id="orange-bg">
         <div id="top-header">
             <div id="logo">
                 <a href="home.html"><h1>Asphatl <span class="color2">9</span></h1></a>
             </div>
-
             <nav>
                 <div id="nav-menu">
                     <ul>
@@ -25,5 +25,58 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div id="subs-content">
+            <h1>Subscribe to join the asphatl experience</h1>
+            <h3>And earn benefits along the way</h3>
+            <form id="subscribeForm">
+                <div>
+                    <label for="Name">Name</label><br>
+                    <input type="text" name="Name" id="Name" size="25">
+                </div>
+                <div>
+                    <label for="Email">E-mail</label><br>
+                    <input type="text" name="Email" id="Email" size="25">
+                </div>
+                <div>
+                    <label for="DOB">Date of birth</label><br>
+                    <input type="date" name="DOB" id="DOB" size="25">
+                </div>
+                <div>
+                    <label for="gender">Gender</label><br>
+                    <select id="gender" name="gender">
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="EULA">Do you agree to the terms and conditions?</label>
+                    <input type="checkbox" name="EULA" id="EULA">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <ul class="contacts">
+            <li>
+                <a href="https://line.me/ti/p/k5fiVScq26" class="footerlogo line-logo">
+                    <img src="Image/line.png" alt="Line">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/nicodemus_nathan" class="footerlogo ig-logo">
+                    <img src="Image/instagram.png" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © 2022 Nicodemus Nathanael Singale. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

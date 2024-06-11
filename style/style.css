@@ -461,3 +461,80 @@ ul.contacts li a{
     height: 157px;
     object-fit: cover;
 }
+
+#event{
+    width: 100%;
+    color: #F97300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.event-item{
+    margin: 0 3em;
+    text-align: center;
+}
+
+.event-item h1{
+    font-size: 80px;
+}
+
+#sponsor{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sponsor-item{
+    width: 8%;
+    height: 8%;
+    margin: 2em;
+}
+
+.sponsor-item img{
+    width: 100%;
+}
+
+#subs-page{
+    background-color: #2b2822;
+}
+
+#subs-page footer{
+    background-color: #E2DFD0;
+}
+
+#subs-page main{
+    display: flex;
+    justify-content: center;
+}
+
+#subs-content{
+    text-align: center;
+    width: 80%;
+    color: #E2DFD0;
+    margin: 10em;
+}
+
+#subs-content h1{
+    font-size: 60px;
+}
+#subscribeForm{
+    margin: 1em;
+}
+
+#subscribeForm div{
+    padding: 1em;
+}
+
+#subscribeForm label{
+    font-size: 25px;
+}
+
+#submit{
+    width: 6em;
+    height: 3em;
+    font-size: large;
+    border-radius: 8px;
+}
